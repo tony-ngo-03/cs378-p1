@@ -6,7 +6,14 @@ body {
     text-align: center;
 }
 
-.logo{
-    width: fit-content;
-    height: auto;
+/* https://stackoverflow.com/questions/15167545/how-to-crop-a-rectangular-image-into-a-square-with-css */
+.square-image{
+    object-fit: cover;
+    width: 110px;
+    height: 110px;
+}
+
+
+.menu-item{
+
 }
