@@ -11,13 +11,18 @@
     <!-- Import your style.css stylesheet -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Cursive Font from Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+
   </head>
   <!-- Implement below this point -->
   <body>
     <div class="container mw-100 mh-100 m-0 p-0">
     <!-- Title -->
-     <div class="row">
-      <div class="container m-auto p-3 h-50 w-50">
+     <div class="row h-100">
+      <div class="container m-auto p-3 h-40 w-40">
         <div class="row align-items-center">
           <div class="col">
             <!-- https://gymnation.com/coffee/ -->
@@ -30,33 +35,33 @@
       <div class="container mb-5 mt-3">
         <div class="row align-items-center">
           <div class="col">
-            <h2 class="center-text">Healthy Recipes Handmade</h2>
-            <h3 class="center-text">The Only Choice of UT</h3>
+            <h2 class="center-text cursive-text">Healthy Recipes Handmade</h2>
+            <h3 class="center-text tagline-text">The Best Choice of UT</h3>
           </div>
         </div>
       </div>
 
         <!-- Menu -->
-        <div class="container my-3 px-5">
-          <div class="row m-0 p-0">
-            <div class="col m-0 p-0 ratio ratio-1x1">
+        <div class="container my-3 px-5 h-10">
+          <div class="row m-0 p-0 h-100">
+            <div class="col m-0 p-0 ratio ratio-1x1 mh-100">
               <!-- https://smellylunchbox.com/chicken-and-broccoli/ -->
-              <img class="rounded square-image" src="https://smellylunchbox.com/wp-content/uploads/2023/06/chickenandbroccoli-jpg.webp" />
+              <img class="rounded image-fluid" src="https://smellylunchbox.com/wp-content/uploads/2023/06/chickenandbroccoli-jpg.webp" />
             </div>
-            <div class="col-8 m-0 px-3">
+            <div class="col-8 m-0 px-3 mh-100">
               <div class="row">
                 <div class="col">
-                  <h4 class="my-1 py-1">Chicken & Rice</h4>
-                  <p class="my-1 py-1">Fresh chicken breast and brocolli on white rice.</p>
-                  <p class="d-inline">$9.99</p>
-                  <button class="d-inline float-end">Add</button>
+                  <h4 class="my-1 py-1 menu-item-name">Chicken & Rice</h4>
+                  <p class="my-1 py-1 menu-item-description">Fresh chicken and brocolli on white rice.</p>
+                  <p class="d-inline price-text">$9.99</p>
+                  <button class="rounded-5 float-end add-button">Add</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="container my-3 px-5">
+        <div class="container my-3 px-5 h-10">
           <div class="row m-0 p-0">
             <div class="col m-0 p-0 ratio ratio-1x1">
               <!-- https://www.erinliveswhole.com/healthy-beef-and-broccoli-recipe/ -->
@@ -65,17 +70,17 @@
             <div class="col-8 m-0 px-3">
               <div class="row">
                 <div class="col">
-                  <h4 class="my-1 py-1">Beef and Brocolli</h4>
-                  <p class="my-1 py-1">Fresh beef and brocolli on white rice.</p>
-                  <p class="d-inline">$9.99</p>
-                  <button class="d-inline float-end">Add</button>
+                  <h4 class="my-1 py-1 menu-item-name">Beef and Brocolli</h4>
+                  <p class="my-1 py-1 menu-item-description">Fresh beef and brocolli on white rice.</p>
+                  <p class="d-inline price-text">$9.99</p>
+                  <button class="rounded-5 float-end add-button">Add</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="container my-3 px-5">
+        <div class="container my-3 px-5 h-10">
           <div class="row m-0 p-0">
             <div class="col m-0 p-0 ratio ratio-1x1">
               <!-- https://healthyfoodiegirl.com/healthy-tuna-salad/ -->
@@ -84,17 +89,17 @@
             <div class="col-8 m-0 px-3">
               <div class="row">
                 <div class="col">
-                  <h4 class="my-1 py-1">Tuna Salad</h4>
-                  <p class="my-1 py-1">Tuna and Veggies expertly combined</p>
-                  <p class="d-inline">$9.99</p>
-                  <button class="d-inline float-end">Add</button>
+                  <h4 class="my-1 py-1 menu-item-name">Tuna Salad</h4>
+                  <p class="my-1 py-1 menu-item-description">Tuna and Veggies expertly combined.</p>
+                  <p class="d-inline price-text">$9.99</p>
+                  <button class="rounded-5 float-end add-button">Add</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="container my-3 px-5">
+        <div class="container my-3 px-5 mh-25">
           <div class="row m-0 p-0">
             <div class="col m-0 p-0 ratio ratio-1x1">
               <!-- https://freshwaterpeaches.com/chocolate-banana-protein-shake/ -->
@@ -103,10 +108,10 @@
             <div class="col-8 m-0 px-3">
               <div class="row">
                 <div class="col">
-                  <h4 class="my-1 py-1">Chocolate Shake</h4>
-                  <p class="my-1 py-1">Chocolate shake packed with whey protein.</p>
-                  <p class="d-inline">$9.99</p>
-                  <button class="d-inline float-end">Add</button>
+                  <h4 class="my-1 py-1 menu-item-name">Chocolate Shake</h4>
+                  <p class="my-1 py-1 menu-item-description">Chocolate shake packed with whey protein.</p>
+                  <p class="d-inline price-text">$9.99</p>
+                  <button class="rounded-5 float-end add-button">Add</button>
                 </div>
               </div>
             </div>
